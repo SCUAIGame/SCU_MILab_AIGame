@@ -1,0 +1,124 @@
+/*==================================  1. Global  ========================================*/
+
+body {
+	background-color: white;
+	font-family: 'Open Sans', sans-serif;;
+	font-weight: 400;
+	line-height: 1.45;
+	color: #333;
+}
+
+*:hover {
+	-webkit-transition: all 0.4s ease-in-out;
+	   -moz-transition: all 0.4s ease-in-out;
+	    -ms-transition: all 0.4s ease-in-out;
+	     -o-transition: all 0.4s ease-in-out;
+			transition: all 0.4s ease-in-out;
+}
+
+html {
+	font-size: 0.813em;
+}
+
+
+/* =-=--=-=-=-=-=-==-=-=-=-  2. Navbar   =-=-=-=-==-=-==-====-==-=- */
+
+#mainNavigation {
+    margin-bottom: 0px;
+    background-color: #fff;
+	height: 100px;
+    border: 1px solid #555;
+    border-width: 0 0 2px 0;
+}
+
+#mainNavigation .navbar-nav li a {/*我-导航栏首页、团队、产品字体样式*/
+	color: #000;
+	font-weight:bold;
+	padding: 38px 15px;
+}
+
+#mainNavigation .navbar-nav li a:hover {
+	color: #262626;
+}
+
+#mainNavigation .navbar-nav li ul.dropdown-menu {
+	padding: 0px;
+}
+
+#mainNavigation .navbar-nav li ul.dropdown-menu li a {
+    padding: 10px 25px;
+    display: block;
+    text-align: center;
+}
+
+#mainNavigation .navbar-nav li ul.dropdown-submenu {
+    right: 100%;
+    position: absolute;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.35);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.35);
+    top: 10px;
+    min-width: 200px;
+    padding: 0px;
+    margin: 2px 0 0;
+    text-align: left;
+}
+
+#mainNavigation .navbar-nav li ul.dropdown-submenu li {
+    position: relative;
+}
+
+#mainNavigation .navbar-nav li ul.dropdown-submenu li a {
+    padding: 10px 25px;
+    display: block;
+}
+
+#mainNavigation .navbar-nav li ul.dropdown-submenu li a:hover {
+	background-color: #f5f5f5;
+	color: #262626;
+}
+
+.navbar-toggle {
+	border-color: #CECECE;
+}
+
+.navbar-toggle {
+	border-radius: 0px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.navbar .navbar-toggle .icon-bar {
+	background-color: #B9B9B9;
+}
+
+.nav-tabs {
+	margin-right: 2px;
+}
+
+.nav-tabs>li>a {
+    border-radius: 0px;
+    margin: 0px;
+    padding: 10px 24px;
+}
+
+.tab-content {
+    border: 1px solid #dadada;
+    border-top-color: transparent;
+    margin-right: 3px;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav>li.dropdown:hover .dropdown-menu {
+		display:block;
+	}
+
+	.navbar-nav>li.dropdown:hover .dropdown-submenu {
+	    display: none;
+	}
+
+	.navbar-nav>li>.dropdown-menu>.dropdown:hover .dropdown-submenu {
+	    display: block;
+	}
+}

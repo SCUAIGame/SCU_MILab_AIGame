@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+{% block content %}
+    <!-- Carousel
+================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="../static/img/ai.png" alt="First slide">
+                <div class="container" >
+                    <div class="carousel-caption" >
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../static/img/machine learning.png" alt="Second slide">
+                <div class="container">
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="../static/img/alphago.jpg" alt="Third slide">
+                <div class="container">
+                    <div class="carousel-caption">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div><!-- /.carousel -->
+
+<div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+        <h2>实验室概况</h2>
+        <div class="col-lg-1">
+
+        </div>
+        <div class="col-lg-4">
+            <img class="img-circle" src="../static/img/zhangyi.png" alt="章毅" style="width: 140px; height: 140px;">
+            <h2><b>章毅</b></h2>
+            <p>四川大学计算机学院（软件学院）院长、博士生导师、教育部新世纪优秀人才、四川省有突出贡献优秀专家
+                四川省学术技术带头人，享受国务院特殊津贴专家。2016年当选国际
+                IEEE（The Institude of Electrical and Electronics Engineers）Fellow。</p>
+            <p><a class="btn btn-default" href="http://www.machineilab.org/users/zhangyi/index.html" role="button">个人主页 &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-2">
+
+        </div>
+        <div class="col-lg-4">
+            <img class="img-circle" src="../static/img/ML.jpg" alt="四川大学机器智能实验室" style="width: 140px; height: 140px;">
+            <h2><b>机器智能实验室</b></h2>
+            <p>四川大学计算机学院（软件学院）院长、博士生导师、教育部新世纪优秀人才、四川省有突出贡献优秀专家
+                四川省学术技术带头人，享受国务院特殊津贴专家。2016年当选国际
+                IEEE（The Institude of Electrical and Electronics Engineers）Fellow。</p>
+            <p><a class="btn btn-default" href="http://www.machineilab.org" role="button">实验室主页 &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading"><b>围棋</b><span class="text-muted" style="font-size: 15px">——人类智慧最高点.</span></h2>
+            <br>
+            <p class="lead">AlphaGo推动了新一轮人工智能的浪潮，但是其背后的深度神经网络技术仍然有一定的提升空间，
+                我们将以围棋为依托，致力于提升网络的性能</p>
+        </div>
+        <div class="col-md-5">
+           <a href="http://www.machineilab.org"><img class="featurette-image img-responsive" src="../static/img/wq.jpg" alt="围棋" ></a>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-5">
+            <a href="http://www.machineilab.org"><img class="featurette-image img-responsive" src="../static/img/codetank.png" alt="坦克" ></a>
+        </div>
+        <div class="col-md-7">
+            <h2 class="featurette-heading"><b>围棋</b><span class="text-muted" style="font-size: 15px">——人类智慧最高点.</span></h2>
+            <br>
+            <p class="lead">AlphaGo推动了新一轮人工智能的浪潮，但是其背后的深度神经网络技术仍然有一定的提升空间，
+                我们将以围棋为依托，致力于提升网络的性能</p>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading"><b>围棋</b><span class="text-muted" style="font-size: 15px">——人类智慧最高点.</span></h2>
+            <br>
+            <p class="lead">AlphaGo推动了新一轮人工智能的浪潮，但是其背后的深度神经网络技术仍然有一定的提升空间，
+                我们将以围棋为依托，致力于提升网络的性能</p>
+        </div>
+        <div class="col-md-5">
+            <a href="http://www.machineilab.org"><img class="featurette-image img-responsive" src="../static/img/robocup.png" alt="足球" ></a>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+    </div>
+{% endblock %}
