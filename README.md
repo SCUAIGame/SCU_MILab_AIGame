@@ -15,7 +15,6 @@
 　- pip install flask-bootstarp
  - pip install flask-mail
  - pip install flask-wtf
- - 
 
 ##开始使用
 - python run.py启动后台,输入127.0.0.1:5000/index访问主页
