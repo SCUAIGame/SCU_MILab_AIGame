@@ -1,0 +1,50 @@
+{%extends "base.html"%}
+{% import "bootstrap/wtf.html" as wtf %}
+{%block content%}
+                  <section class="bg-white story">
+                    <div class="container">
+                        <div class="headline text-center">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3">
+                                   <br><br> 
+                                   <h2 class="section-title"><b>欢迎联系我们</b></h2>
+                                   <br>
+                                  <img src="../static/img/email.jpg"  class="img-responsive center-block" alt="team-member 1">
+                                  <br>
+                                 </div>
+                            </div>
+                        </div> <!-- /.headline -->
+
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1 text-left">
+                                <p class="story-description col-md-10 col-md-offset-1 text-left"　style=" margin-left: 50%;">
+                                	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;如果您对我们的项目有任何疑问或建议都可以在下面告诉我们，您也可以附上您的联系方式，我们将尽快答复你．
+                                </p> <!-- /.story-description -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end of our story section -->
+                 <hr style="height:5px;width:70%;border:none;border-top:5px ridge gray"/>
+ <div class="row">
+    <!-- FOOTER -->
+     <div class="col-md-2">
+     </div>
+    <div class="col-md-8">
+　　　　　{{ wtf.quick_form(form) }}
+    </div>
+   <div class="col-md-2">
+     </div>
+   </div>
+  <br><br><br><br><br><br><br><br>
+    <style type="text/css">
+        #message{
+            resize: none;
+            height: 500px;
+        }
+        #submit{
+            margin-left: 50%;
+        }
+    </style>
+
+{%endblock%}
