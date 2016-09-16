@@ -12,7 +12,7 @@
 ##环境搭建
 - 基于python2.7,需要安装以下插件
  - pip install flask
-　- pip install flask-bootstarp
+ - pip install flask-bootstarp
  - pip install flask-mail
  - pip install flask-wtf
 
